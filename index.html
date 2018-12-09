@@ -1,12 +1,177 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Syed</title>
-        <body>
-            <h1> Syed Portfolio</h1>
-            <h2>New Repo</h2>
-            <p>Building a Portfolio</p>
-            
-        </body>
-    </head>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./bootstrap 4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <script src="./bootstrap 4.0/js/bootstrap.min.js"></script>
+    <script src="./typed.js-master/lib/typed.js"></script>
+    <script src="logic.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="index.html">
+            <strong> Syed Afnan Ali</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" role="Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ml-auto">
+                <a class="nav-link active" href="">
+                    <p>Features</p>
+                </a>
+                <a class="nav-link active" href="">
+                    <p>Features</p>
+                </a>
+                <a class="nav-link active" href="">
+                    <p>Features</p>
+                </a>
+                <a class="nav-link active" href="">
+                    <p>Features</p>
+                </a>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Screen image -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container-fluid aos">
+            <p class="text-center" style="color:white;"><img src="https://www.pagevamp.com/images/loading.gif" alt=""></p>
+            <h5 class="text-center"> <span class="typed" style="display:inline;"></span></h5>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Personal info -->
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4 text-center">
+            <h2>Bio</h2>
+        </div>
+        <div class="col-4"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8 text-center">
+            <p> My name is Syed Afnan Ali.I am 26 years old. I am interested in multiple disciplines of education. My
+                actual educational background is in Business Administration.I am interested in having an understanding
+                about deep questions in life .That is what drives me I believe. I like problem solving ;that's what
+                makes me interested in coding. I think coding helps me understand deeper concepts not only about
+                building a website but i think it can be looked as a metaphor to other things in life.We create a page
+                from scratch and then it evolves with our understanding as we learn and apply it to the website we are
+                building just like we do in life.We learn, we evolve (physically and in our ideas) and then we apply it
+                to our environment;whether it be virtual or natural.My plan with this bootcamp is to try to achieve as
+                extensive knowledge as possible about all the languages and programs we will learn throughout the whole
+                program.So, I am able to have a career in Web Development and with experience eventually be able to
+                build up a team and start my own studio. Doing a job in web Development is not my ultimate goal but a
+                step towards it. I really like doing coding because it forces me to think outside the box ; an activity
+                which i very much like and apprecite to have an opportunity where i could build a career doing it.</p>
+            </p>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <hr>
+
+    <!-- Portfolio -->
+    <div class="container-fluid portfolio">
+        <div class="row text-center" style="margin:0 0px 5px 0px;">
+            <div class="col-4 project"><a href="https://syedafnanali.github.io/Project-Mood/"> <img src="./3-orange-low-poly-background.jpg"></a>
+            </div>
+            <div class="col-4 project"><a href="https://syedafnanali.github.io/starwarsgame/"> <img src="./3-orange-low-poly-background.jpg"></a>
+            </div>
+            <div class="col-4 project"><a href="https://syedafnanali.github.io/Project-Mood/"> <img src="./3-orange-low-poly-background.jpg"></a></div>
+        </div>
+        <div class="row text-center" style="margin:0 0px 5px 0px;">
+            <div class="col-4 project"><a href="https://syedafnanali.github.io/Project-Mood/"> <img src="./3-orange-low-poly-background.jpg"></a>
+            </div>
+            <div class="col-4 project"><a href="https://syedafnanali.github.io/Project-Mood/"> <img src="./3-orange-low-poly-background.jpg"></a>
+            </div>
+            <div class="col-4 project"><a href="https://syedafnanali.github.io/Project-Mood/"> <img src="./3-orange-low-poly-background.jpg"></a></div>
+        </div>
+        <hr>
+    </div>
+
+    <!-- Contact -->
+    <div class="container-fluid">
+        <form>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                </div><br>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Organization">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Designation">
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Phone number(optional)">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Email">
+                </div>
+            </div><br>
+            <div class="form-group">
+                <label for="message">Send a message</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+        </form>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-12">
+                <h2>Connect</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-google-plus-g"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    <hr>
+ 
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <h5 class="display-5 text-center">Syed Afnan Ali</h5>
+        </div>
+    </footer>
+    <script>
+        var typed = new Typed(".typed", {
+            strings: ["Front-end Developer ",
+                "Back-end developer",
+                "Full-stack development",
+            ],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true,
+
+        });
+
+    </script>
+</body>
+
 </html>
